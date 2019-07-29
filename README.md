@@ -8,7 +8,7 @@ Share-Event is a lightweight no-dependenc Javascript plugin to share your events
 npm install share-event
 ```
 
-Or just download the JS file in the /dist folder 🐣
+Or just download shareEvent.min.js from the /dist folder 🐣
 
 ## Usage
 
