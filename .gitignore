@@ -1,5 +1,2 @@
 .vscode
 node_modules
-.babelrc
-webpack.config.js
-webpack.prod.config.js
