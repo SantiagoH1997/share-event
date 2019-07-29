@@ -1,0 +1,8 @@
+{
+  "name": "share-event",
+  "version": "1.0.0",
+  "description": "Simple event sharing plugin.",
+  "main": "/js/shareEvent.js",
+  "author": "Santiago Hernández",
+  "license": "ISC"
+}
