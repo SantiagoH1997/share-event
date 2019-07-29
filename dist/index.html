@@ -1,0 +1,67 @@
+[<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Share Event</title>
+  </head>
+  <body>
+    <section class="calendar">
+      <button data-share-event="btn-toggle">Share Event</button>
+      <ul data-share-event="options" aria-expanded="false">
+          <a href="#" data-share-event="google">
+            <li>
+              <img src="./images/google.svg" alt="Google logo" class="calendar-logo" /> Google
+            </li>
+          </a>
+          <a href="#" data-share-event="outlook-online">
+            <li>
+              <img
+                src="./images/outlook.svg"
+                alt="Outlook logo"
+                class="calendar-logo"
+              /> Outlook Online
+            </li>
+          </a>
+        </li>
+        <a href="#" data-share-event="outlook">
+          <li>
+            <img
+                src="./images/outlook.svg"
+                alt="Outlook logo"
+                class="calendar-logo"
+              /> Outlook
+          </li>
+        </a>
+        <a href="#" data-share-event="icalendar">
+          <li>
+            <img src="./images/apple.svg" alt="Apple logo" class="calendar-logo" /> iCalendar
+          </li>
+        </a>
+        <a href="#" data-share-event="yahoo">
+          <li>
+            <img src="./images/yahoo.svg" alt="Yahoo logo" class="calendar-logo" />
+            Yahoo
+          </li>
+        </a>
+      </ul>
+    </section>
+    <script src="./js/shareEvent.js"></script>
+    <script>
+      window.addEventListener("DOMContentLoaded", function() {
+        var event = {
+          title: "Test event",
+          description:
+            "This is a random test event",
+          start: new Date("March 9, 2020 15:00"),
+          end: new Date("March 9, 2020 17:00"),
+          location: "Random street 947"
+        };
+        shareEvent.init(event);
+      });
+    </script>
+  <script type="text/javascript" src="shareEvent.min.js"></script></body>
+</html>

@@ -7,7 +7,7 @@ module.exports = {
   entry: "./js/shareEvent.js",
   output: {
     path: path.resolve(__dirname, "dist"),
-    filename: "bundle.js",
+    filename: "shareEvent.min.js",
     publicPath: ""
   },
   module: {
