@@ -13,7 +13,7 @@ Or just download shareEvent.js from the /js folder 🐣
 ## Usage
 
 ```html
-<script type="text/javascript" src="shareEvent.min.js"></script></body>
+<script type="text/javascript" src="shareEvent.js"></script></body>
 <script>
 window.addEventListener("DOMContentLoaded", function() {
         var event = {
