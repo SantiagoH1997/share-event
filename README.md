@@ -4,11 +4,7 @@ Share-Event is a lightweight no-dependenc Javascript plugin to share your events
 
 ## Installation
 
-```bash
-npm install share-event
-```
-
-Or just download shareEvent.js from the /js folder 🐣
+Just download shareEvent.js from the /js folder 🐣
 
 ## Usage
 
