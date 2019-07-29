@@ -4,7 +4,7 @@ Share-Event is a lightweight no-dependency Javascript plugin to share your event
 
 ## Installation
 
-Just download shareEvent.js from the /js folder (optionally style.css from /css)🐣
+Just download shareEvent.js from the /js folder (optionally shareEvent.css from /css)🐣
 
 ## Usage
 
