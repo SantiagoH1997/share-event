@@ -1,0 +1,16 @@
+{
+  "name": "share-event",
+  "version": "1.0.2",
+  "description": "A lightweight, dependency free plugin for sharing your events.",
+  "main": "shareEvent.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SantiagoH1997/share-event.git"
+  },
+  "author": "Santiago Hernández",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SantiagoH1997/share-event/issues"
+  },
+  "homepage": "https://github.com/SantiagoH1997/share-event#readme"
+}
