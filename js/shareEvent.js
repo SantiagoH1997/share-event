@@ -13,7 +13,7 @@ const shareEvent = {
     return hours + "" + minutes;
   },
 
-  event: { title: "", start: "", env: "", description: "", location: "" },
+  event: { title: "", start: "", end: "", description: "", location: "" },
 
   // Google
   google(event) {
