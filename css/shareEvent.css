@@ -1,0 +1,52 @@
+article[data-share-event="share-event"] {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button[data-share-event="btn-toggle"] {
+  padding: 10px 15px;
+  font-family: "Nunito", sans-serif;
+  font-size: 0.8rem;
+  background-color: #fff;
+  transition: all 0.3s;
+  width: 170px;
+  background-color: transparent;
+  cursor: pointer;
+}
+a[data-share-event] {
+  color: #000;
+  text-decoration: none;
+}
+ul[data-share-event="options"] {
+  margin: 0;
+  width: 168px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0 0 5px 5px;
+  overflow: hidden;
+  transition: all 0.3s;
+  transform-origin: top;
+  padding: 10px 0;
+}
+ul[data-share-event="options"][aria-expanded="false"] {
+  border: none;
+  height: 0;
+}
+ul[data-share-event="options"][aria-expanded="true"] {
+  border: 1px solid rgba(138, 138, 138, 0.452);
+  height: 232px;
+}
+ul[data-share-event="options"] li {
+  list-style: none;
+  transition: all 0.3s;
+  padding: 10px 15px;
+  background-color: #fff;
+  transition: all 0.3s;
+}
+ul[data-share-event="options"] li:hover {
+  background-color: rgb(233, 233, 233);
+}
