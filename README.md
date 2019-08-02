@@ -40,6 +40,10 @@ Inside, place a button with a data-share-event="btn-toggle" attribute and a <ul 
 </html>
 ```
 
+## Live demo
+
+There is a live demo available here: https://santiagoh1997.github.io/share-event-demo/
+
 ## License
 
 [ISC](https://choosealicense.com/licenses/isc/)
