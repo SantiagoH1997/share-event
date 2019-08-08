@@ -9,7 +9,7 @@ Just download shareEvent.js (optionally shareEvent.css)🐣
 ## Usage
 
 You need to have an element with a data-share-event="share-event" attribute. This will be your container.  
-Inside, place a button with a data-share-event="btn-toggle" attribute and a ul element with a data-share-event="options" attribute holding anchor tags with a data-share-event attribute. The value for each of these should be your desired calendar option.
+Inside, place a button with a data-share-event="btn-toggle" attribute. Modify the code below to your needs.
 
 ```html
 
