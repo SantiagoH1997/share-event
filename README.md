@@ -1,6 +1,6 @@
 # Share-Event
 
-Share-Event is a lightweight no-dependency Javascript plugin to share your events, supporting Outlook (online and desktop), iCalendar, Google, and Yahoo calendars.
+Share-Event is a Javascript plugin to share your events, supporting Outlook (online and desktop), iCalendar, Google, and Yahoo calendars.
 
 ## Installation
 
